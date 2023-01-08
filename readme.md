@@ -19,7 +19,7 @@ on TW political wiki page pageviews data
 using ```requests``` to download the pageviews from Rest API for a specific article.
 
 ### model.py:
-Fitting the parameters : $a_-$, $b_-$, $\tau_-$, $a_+$,$b_+$, $\tau_+$ for purpose of __Checking if it is suitable__ and then __Clustering__. (and, hence, it is Supervised)
+Fitting the parameters : $a_-$, $b_-$, $\tau_-$, $a_+$, $b_+$, $\tau_+$ for purpose of __Checking if it is suitable__ and then __Clustering__. (and, hence, it is Supervised)
 
 - Using ```sklearn.scipy.optmize least_squares``` package to fit the least square fitting data
 
